@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product_list>
+  <product>
+    <itemNb>1</itemNb>
+    <prod_name>Bacon</prod_name>
+    <shortDesc>Fatty and Tasty</shortDesc>
+    <longDesc>Grass fed, locally sourced, deliciously marbled</longDesc>
+    <prod_aisle>Meats</prod_aisle>
+    <prod_price>7.99</prod_price>
+    <prod_link>./bacon.php</prod_link>
+    <prod_count>210</prod_count>
+    <prod_img>../img/meat/bacon.jpg</prod_img>
+  </product>
+  <product>
+    <itemNb>2</itemNb>
+    <prod_name>Banana</prod_name>
+    <shortDesc>Yellow and Tasty</shortDesc>
+    <longDesc>Freshly imported and full of potassium</longDesc>
+    <prod_aisle>Fruits and Vegetables</prod_aisle>
+    <prod_price>0.99</prod_price>
+    <prod_link>./banana.php</prod_link>
+    <prod_count>45</prod_count>
+    <prod_img>../img/fruit/banana.jpg</prod_img>
+  </product>
+  <product>
+    <itemNb>3</itemNb>
+    <prod_name>Salmon</prod_name>
+    <shortDesc>Fatty and Fishy</shortDesc>
+    <longDesc>Fresh from the line Atlantic salmon</longDesc>
+    <prod_aisle>Meats</prod_aisle>
+    <prod_price>15.99</prod_price>
+    <prod_link>./fish.php</prod_link>
+    <prod_count>24</prod_count>
+    <prod_img>../img/meat/fish.jpg</prod_img>
+  </product>
+  <product>
+    <itemNb>4</itemNb>
+    <prod_name>Pork</prod_name>
+    <shortDesc>Salty and Fatty</shortDesc>
+    <longDesc>Grass fed, locally sourced, deliciously marbled</longDesc>
+    <prod_aisle>Meats</prod_aisle>
+    <prod_price>13.99</prod_price>
+    <prod_link>./pork.php</prod_link>
+    <prod_count>24</prod_count>
+    <prod_img>../img/meat/pork.jpg</prod_img>
+  </product>
+  <product>
+    <itemNb>5</itemNb>
+    <prod_name>Steak</prod_name>
+    <shortDesc>Lean and Tasty</shortDesc>
+    <longDesc>Grass fed, locally sourced, high in protein</longDesc>
+    <prod_aisle>Meats</prod_aisle>
+    <prod_price>16.99</prod_price>
+    <prod_link>./steak.php</prod_link>
+    <prod_count>33</prod_count>
+    <prod_img>../img/meat/steak.jpg</prod_img>
+  </product>
+  <!-- Frozen Foods -->
+  <product>
+    <itemNb>6</itemNb>
+    <prod_name>Frozen Cherries</prod_name>
+    <shortDesc>Perfect for Smoothies</shortDesc>
+    <longDesc>Flash frozen, delicious and fruity</longDesc>
+    <prod_aisle>Frozen Foods</prod_aisle>
+    <prod_price>6.99</prod_price>
+    <prod_link>./frozencherry.php</prod_link>
+    <prod_count>82</prod_count>
+    <prod_img>../img/frozen/frozenCherries.jpg</prod_img>
+  </product>
+  <product>
+    <itemNb>7</itemNb>
+    <prod_name>Frozen Vegetables</prod_name>
+    <shortDesc>Garden Variety</shortDesc>
+    <longDesc>Flash frozen, delicious and nutritious</longDesc>
+    <prod_aisle>Frozen Foods</prod_aisle>
+    <prod_price>6.99</prod_price>
+    <prod_link>./frozenveg.php</prod_link>
+    <prod_count>22</prod_count>
+    <prod_img>../img/frozen/frozenVeg.jpg</prod_img>
+  </product> 
+  <product>
+    <itemNb>8</itemNb>
+    <prod_name>Frozen Pizza</prod_name>
+    <shortDesc>Stuffed Crust</shortDesc>
+    <longDesc>Baked in house with stuffed mozzarella crust</longDesc>
+    <prod_aisle>Frozen Foods</prod_aisle>
+    <prod_price>12.99</prod_price>
+    <prod_link>./frozenpizza.php</prod_link>
+    <prod_count>32</prod_count>
+    <prod_img>../img/frozen/frozenPizza.jpg</prod_img>
+  </product>
+
+  <!-- Baked Goods -->
+  <product>
+    <itemNb>9</itemNb>
+    <prod_name>Carrot Cake</prod_name>
+    <shortDesc>Freshly Baked</shortDesc>
+    <longDesc>Freshly baked in house. A local favorite.</longDesc>
+    <prod_aisle>Baked Goods</prod_aisle>
+    <prod_price>11.99</prod_price>
+    <prod_link>./carrotCake.php</prod_link>
+    <prod_count>11</prod_count>
+    <prod_img>../img/baked goods/carrotCake.jpg</prod_img>
+  </product>
+  <product>
+    <itemNb>10</itemNb>
+    <prod_name>Strawberry Short Cake</prod_name>
+    <shortDesc>Freshly Baked</shortDesc>
+    <longDesc>Freshly baked in house. A local favorite.</longDesc>
+    <prod_aisle>Baked Goods</prod_aisle>
+    <prod_price>12.99</prod_price>
+    <prod_link>./strawberryCake.php</prod_link>
+    <prod_count>14</prod_count>
+    <prod_img>../img/baked goods/strawberryShortCake.jpg</prod_img>
+  </product>
+  <product>
+    <itemNb>11</itemNb>
+    <prod_name>Tiramisu</prod_name>
+    <shortDesc>Freshly Baked</shortDesc>
+    <longDesc>Freshly baked in house. A local favorite.</longDesc>
+    <prod_aisle>Baked Goods</prod_aisle>
+    <prod_price>10.99</prod_price>
+    <prod_link>./tiramisu.php</prod_link>
+    <prod_count>16</prod_count>
+    <prod_img>../img/baked goods/tiramisu.jpg</prod_img>
+  </product>
+
+  <!-- Drinks & Spices -->
+  <product>
+    <itemNb>12</itemNb>
+    <prod_name>Ground Coffee</prod_name>
+    <shortDesc>Freshly Ground</shortDesc>
+    <longDesc>Locally sourced from Colombia.</longDesc>
+    <prod_aisle>Drinks and Spices</prod_aisle>
+    <prod_price>12.99</prod_price>
+    <prod_link>./groundcoffee.php</prod_link>
+    <prod_count>41</prod_count>
+    <prod_img>../img/drinks and spices/groundcoffee.jpg</prod_img>
+  </product>
+  <product>
+    <itemNb>13</itemNb>
+    <prod_name>Spice Mix</prod_name>
+    <shortDesc>Autumn Blend</shortDesc>
+    <longDesc>Customer favorite blend of Autumn spices, just in time for Fall.</longDesc>
+    <prod_aisle>Drinks and Spices</prod_aisle>
+    <prod_price>7.99</prod_price>
+    <prod_link>./spicemix.php</prod_link>
+    <prod_count>21</prod_count>
+    <prod_img>../img/drinks and spices/spicemix.jpg</prod_img>
+  </product>
+  <product>
+    <itemNb>14</itemNb>
+    <prod_name>Tea Mix</prod_name>
+    <shortDesc>Sleepy Time Blend</shortDesc>
+    <longDesc>Soothing blend of chamomile, lavender, and mint.</longDesc>
+    <prod_aisle>Drinks and Spices</prod_aisle>
+    <prod_price>9.99</prod_price>
+    <prod_link>./teamix.php</prod_link>
+    <prod_count>72</prod_count>
+    <prod_img>../img/drinks and spices/teamix.jpg</prod_img>
+  </product>
+  <product>
+    <itemNb>15</itemNb>
+    <prod_name>Whole Coffee</prod_name>
+    <shortDesc>100% Colombian</shortDesc>
+    <longDesc>Imported and ethically sourced from Colombia</longDesc>
+    <prod_aisle>Drinks and Spices</prod_aisle>
+    <prod_price>11.99</prod_price>
+    <prod_link>./wholecoffee.php</prod_link>
+    <prod_count>44</prod_count>
+    <prod_img>../img/drinks and spices/wholecoffee.jpg</prod_img>
+  </product>
+
+  <!-- Grains & Pasta -->
+  <product>
+    <itemNb>16</itemNb>
+    <prod_name>Brown Bread</prod_name>
+    <shortDesc>Whole grain</shortDesc>
+    <longDesc>Baked in house</longDesc>
+    <prod_aisle>Grains and Pasta</prod_aisle>
+    <prod_price>5.99</prod_price>
+    <prod_link>./brownbread.php</prod_link>
+    <prod_count>82</prod_count>
+    <prod_img>../img/grains/brownbread.jpg</prod_img>
+  </product>
+  <product>
+    <itemNb>17</itemNb>
+    <prod_name>Flatbread</prod_name>
+    <shortDesc>Baked in house</shortDesc>
+    <longDesc>Freshly baked daily from organic grains.</longDesc>
+    <prod_aisle>Grains and Pasta</prod_aisle>
+    <prod_price>7.99</prod_price>
+    <prod_link>./flatbread.php</prod_link>
+    <prod_count>102</prod_count>
+    <prod_img>../img/grains/flatbread.jpg</prod_img>
+  </product>
+  <product>
+    <itemNb>18</itemNb>
+    <prod_name>Rice</prod_name>
+    <shortDesc>Long-grain</shortDesc>
+    <longDesc>Organic, long-grain jasmine rice. Delicious and healthy.</longDesc>
+    <prod_aisle>Grains and Pasta</prod_aisle>
+    <prod_price>8.99</prod_price>
+    <prod_link>./rice.php</prod_link>
+    <prod_count>92</prod_count>
+    <prod_img>../img/grains/rice.jpg</prod_img>
+  </product>
+
+  <!-- Dairy -->
+  <product>
+    <itemNb>19</itemNb>
+    <prod_name>Cheese</prod_name>
+    <shortDesc>Sharp and marbled</shortDesc>
+    <longDesc>High in fat and marbled to perfection</longDesc>
+    <prod_aisle>Dairy</prod_aisle>
+    <prod_price>8.99</prod_price>
+    <prod_link>./cheese.php</prod_link>
+    <prod_count>81</prod_count>
+    <prod_img>../img/dairy/cheese.jpg</prod_img>
+  </product>
+  <product>
+    <itemNb>20</itemNb>
+    <prod_name>Eggs</prod_name>
+    <shortDesc>Free range</shortDesc>
+    <longDesc>Free-range, high in Omega-3's, and perfect for breakfast</longDesc>
+    <prod_aisle>Dairy</prod_aisle>
+    <prod_price>7.99</prod_price>
+    <prod_link>./eggs.php</prod_link>
+    <prod_count>107</prod_count>
+    <prod_img>../img/dairy/eggs.jpg</prod_img>
+  </product>
+  <product>
+    <itemNb>21</itemNb>
+    <prod_name>Quail Eggs</prod_name>
+    <shortDesc>Exotic and nutritious</shortDesc>
+    <longDesc>Quail eggs are hard to come by. That's why we bring them to you.</longDesc>
+    <prod_aisle>Dairy</prod_aisle>
+    <prod_price>9.99</prod_price>
+    <prod_link>./quaileggs.php</prod_link>
+    <prod_count>39</prod_count>
+    <prod_img>../img/dairy/quailegg.jpg</prod_img>
+  </product>
+
+  <!-- Fruits & Vegetables -->
+  <product>
+    <itemNb>22</itemNb>
+    <prod_name>Pear</prod_name>
+    <shortDesc>Delicious and juicy</shortDesc>
+    <longDesc>Freshly picked and packed with vitamins</longDesc>
+    <prod_aisle>Fruits and Vegetables</prod_aisle>
+    <prod_price>0.99</prod_price>
+    <prod_link>./pear.php</prod_link>
+    <prod_count>105</prod_count>
+    <prod_img>../img/fruit/pear.jpg</prod_img>
+  </product>
+  <product>
+    <itemNb>23</itemNb>
+    <prod_name>Raspberry</prod_name>
+    <shortDesc>Tiny and tasty</shortDesc>
+    <longDesc>Picked by local farmers, these go great in a smoothie.</longDesc>
+    <prod_aisle>Fruits and Vegetables</prod_aisle>
+    <prod_price>3.99</prod_price>
+    <prod_link>./raspberry.php</prod_link>
+    <prod_count>88</prod_count>
+    <prod_img>../img/fruit/raspberry.jpg</prod_img>
+  </product>
+  <product>
+    <itemNb>24</itemNb>
+    <prod_name>Strawberry</prod_name>
+    <shortDesc>Perfect for smoothies</shortDesc>
+    <longDesc>Freshly picked and diced at market each morning.</longDesc>
+    <prod_aisle>Fruits and Vegetables</prod_aisle>
+    <prod_price>2.99</prod_price>
+    <prod_link>./strawberry.php</prod_link>
+    <prod_count>62</prod_count>
+    <prod_img>../img/fruit/strawberry.jpg</prod_img>
+  </product>
+  <product>
+    <itemNb>25</itemNb>
+    <prod_name>Beets</prod_name>
+    <shortDesc>Small and Purple</shortDesc>
+    <longDesc>Great in a beyond meat burger</longDesc>
+    <prod_aisle>Fruits and Vegetables</prod_aisle>
+    <prod_price>2.99</prod_price>
+    <prod_link>./beets.php</prod_link>
+    <prod_count>53</prod_count>
+    <prod_img>../img/veg/beets.jpg</prod_img>
+  </product>
+  <product>
+    <itemNb>26</itemNb>
+    <prod_name>Broccoli</prod_name>
+    <shortDesc>Green and leafy</shortDesc>
+    <longDesc>Packed full of fiber and nutritious vitamins</longDesc>
+    <prod_aisle>Fruits and Vegetables</prod_aisle>
+    <prod_price>2.99</prod_price>
+    <prod_link>./broccoli.php</prod_link>
+    <prod_count>101</prod_count>
+    <prod_img>../img/veg/broccoli.jpg</prod_img>
+  </product>
+  <product>
+    <itemNb>27</itemNb>
+    <prod_name>Corn</prod_name>
+    <shortDesc>Yellow and sweet</shortDesc>
+    <longDesc>Fresh off the cob, the only thing missing is some butter</longDesc>
+    <prod_aisle>Fruits and Vegetables</prod_aisle>
+    <prod_price>3.99</prod_price>
+    <prod_link>./corn.php</prod_link>
+    <prod_count>79</prod_count>
+    <prod_img>../img/veg/corn.jpg</prod_img>
+  </product>
+</product_list>
