@@ -16,8 +16,8 @@
       src="https://kit.fontawesome.com/68c5ed42bd.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="style.css" />
-    <script src="productpage.js" defer></script>
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../../../public/front_page/productpage.js" defer></script>
     <title>Blaviken's Frozen Pizza</title>
   </head>
   <body>

@@ -27,7 +27,9 @@ const createProduct = (name, aisle, quantity, price) => {
   newRow.childNodes[9].childNodes[1].addEventListener("click", (e) => {
     e.target.parentElement.parentElement.remove();
   });
-};
+
+}
+
 
 // On form submit, add new product to the page
 document.querySelector(".product-form").addEventListener("submit", (e) => {
@@ -47,6 +49,22 @@ document.querySelector(".product-form").addEventListener("submit", (e) => {
     alert("Cannot create product without a name!");
     return;
   }
+  formData = {
+    "prodName": productName,
+    "productAisle": productAisle,
+    "prodQuantity": productQuantity,
+    "productPrice": productPrice
+  };
+
+  $.ajax({
+    type: 'POST',
+    url: 'saveProductToXml.php',
+    data: formData,
+    success: function(data) {
+        console.log("hello");
+    }
+  });
+
 
   // Create the product with the new form values
   createProduct(productName, productAisle, productQuantity, productPrice);

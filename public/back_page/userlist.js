@@ -7,34 +7,58 @@ for (let i = 0; i < deleteButtons.length; i++) {
     e.target.parentElement.parentElement.remove();
   })
 }
-
 //---------- ADD NEW USER FUNCTIONALITY ----------//
-document.querySelector('.add-user-form').addEventListener('submit', (e) => {
+
+const createUser = (username, email) => {
+  let newRow = document.createElement("tr");
+
+  newRow.innerHTML = `<tr>
+  <th scope="row" class="px-0">
+      <div class="d-flex align-items-center flex-column">
+          <p class="align-self-center">${username}</p>
+      </div>
+  </th>
+  <td class="text-center px-0">${email}</td>
+  <td class="text-center px-0"><button type="button" class="btn btn-outline-dark"
+          data-toggle="modal" data-target="#editModal">Edit</button></td>
+  <td class="text--center px-0"><button type="button"
+          class="btn btn-outline-danger deletebtn">Delete User</button></td>
+  </tr>`;
+
+  document.querySelector('.user-table').appendChild(newRow);
+  newRow.childNodes[7].childNodes[0].addEventListener('click', (e) => {
+    e.target.parentElement.parentElement.remove();
+  });
+
+}
+window.onload = function(){console.log("help")}
+document.querySelector(".add-user-form").addEventListener("submit", (e) => {
+  console.log("sup");
   e.preventDefault();
 
   let userName = document.querySelector('.add-user-name').value;
   let userEmail = document.querySelector('.add-user-email').value;
   let userPassword = document.querySelector('.add-user-password').value;
 
-  let newRow = document.createElement("tr");
+  formData = {
+    "username": userName,
+    "email": userEmail,
+    "password": userPassword,
+  };
 
-  newRow.innerHTML = `<tr>
-  <th scope="row" class="px-0">
-      <div class="d-flex align-items-center flex-column">
-          <p class="align-self-center">${userName}</p>
-      </div>
-  </th>
-  <td class="text-center px-0">${userEmail}</td>
-  <td class="text-center px-0"><button type="button" class="btn btn-outline-dark"
-          data-toggle="modal" data-target="#editModal">Edit</button></td>
-  <td class="text--center px-0"><button type="button"
-          class="btn btn-outline-danger deletebtn">Delete User</button></td>
-  </tr>`;
-  document.querySelector('.user-table').appendChild(newRow);
-  newRow.childNodes[7].childNodes[0].addEventListener('click', (e) => {
-    e.target.parentElement.parentElement.remove();
+  $.ajax({
+    type: 'POST',
+    url: 'saveUserToXml.php',
+    data: formData,
+    success: function(data) {
+        console.log("hello");
+    }
   });
+
+  createUser(username, email);
   $("#userModal").modal("toggle");
+  return false;
+
 });
 
 //---------- EDIT USER FUNCTIONALITY ----------//

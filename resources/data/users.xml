@@ -34,8 +34,8 @@
     <id>4</id>
     <type>admin</type>
     <username>james</username>
-    <lastname>James</lastname>
-    <firstname>Green</firstname>
+    <lastname>Green</lastname>
+    <firstname>James</firstname>
     <password>defc@123</password>
     <telephone>514788999</telephone>
     <email>james@gmail.com</email>
@@ -44,8 +44,8 @@
     <id>5</id>
     <type>admin</type>
     <username>jim</username>
-    <lastname>Jim</lastname>
-    <firstname>Green</firstname>
+    <lastname>Green</lastname>
+    <firstname>Jim</firstname>
     <password>nhy#123</password>
     <telephone>5146778909</telephone>
     <email>jim@gmail.com</email>
